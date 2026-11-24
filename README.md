@@ -1,7 +1,7 @@
 # Bangle
 Bangle is a compiled, statically typed programming language with C adjacent syntax\
 It will contain a standard library with custom implementations of dynamic arrays, hash maps, etc.\
-Compiles into NASM assembly, NASM is then invoked for machine code generation, which is then linked with the GNU linker\
+Compiles into NASM assembly, NASM is then invoked for machine code generation, which is then linked with the GNU linker
 ## Features:
 Initial compiler is written in C, eventually self hosted\
 Supports inline NASM with the `nasm()` unary operator\
