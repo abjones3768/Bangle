@@ -1,26 +1,3 @@
-/*
-Bangle Compiler:
--------------------------------------------------------------------------------------------------
-Compiled, statically typed programming language with C adjacent syntax with extra features
-Will compile to NASM assembly and invoke the NASM assembler and GNU linker 
-Supports inline NASM similar to C supporting inline AT&T syntax asm
-Initial compiler is written in C, eventually self hosted
--------------------------------------------------------------------------------------------------
-Data types:
-byte (8 bit int)
-short (16 bit int)
-int (32 bit int)
-long (64 bit int)
-
-char (8 bit data with ascii operations)
-string (zesty c style string probably)
-
-float (single floating point)
-double (double floating point)
--------------------------------------------------------------------------------------------------
-Will have a standard library which will be ports of my own memory allocators, dynamic array, hash map, etc
-*/
-
 #include <stdio.h>
 #include "pipeline/lexicalAnalysis.c"
 
